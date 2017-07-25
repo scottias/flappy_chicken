@@ -1,0 +1,15 @@
+#game
+{
+	max-width: 520px;
+	height: 840px;
+	background-color: #888888;
+}
+
+#score-input
+{
+	color: black;
+	position: absolute;
+    top: 450px;
+    left: 130px;
+    display: none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<head>
+	<meta charset = "UTF-8">
+	<title> Flappy Chicken</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles/game.css">
+	<script type="text/javascript" src = "http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body onload = "FlappyGame.game.initialize();"">
+	<div id="game">
+		<canvas id="game-canvas" width ="520" height ="840"></canvas>
+		<div id="score-input">
+			<span class = "label">Name: </span>
+			<form id="myForm">
+				<input id = "name" type = "text" class = "input">
+				<input id="game-save-button" type="button" value="Save"></input>
+			</form>
+		</div>
+	</div>
+
+	<script src = "scripts/initialize.js"></script>
+	<script src = "scripts/ParticleSystem.js"></script>
+	<script src = "scripts/random.js"></script>
+	<script src = "scripts/input.js"></script>
+	<script src = "scripts/sound.js"></script>
+	<script src = "scripts/render.js"></script>
+	<script src = "scripts/update.js"></script>
+	<script src = "scripts/play.js"></script>
+	<script src = "scripts/screens.js"></script>
+</body>
+</html>
